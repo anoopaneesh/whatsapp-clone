@@ -1,0 +1,15 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.30;
+}
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-right: 1px solid lightgray;
+}
+.sidebar__headerRight{
+    min-width: 30px;
+}
